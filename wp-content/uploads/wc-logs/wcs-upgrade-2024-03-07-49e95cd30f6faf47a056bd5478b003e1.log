@@ -1,0 +1,13 @@
+2024-03-07T22:07:47+00:00 NOTICE 3.1.0 - No subscription webhooks found using API version 3. No updates needed. CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE 6.8.0 upgrade complete from Subscriptions v0 while WooCommerce WC_VERSION 8.6.1 and database version 8.6.1 was active. CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE Environment info: CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WordPress Version : 6.4.3 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE Active Plugins: CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WooCommerce Currency Converter by KoiLab – 2.2.1 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WooCommerce Stripe Gateway by WooCommerce – 8.0.0 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WooCommerce Name Your Price by Kathy Darling – 3.5.7 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     Woo Product Add-ons by Woo – 6.6.0 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WooCommerce Smart Coupons by StoreApps – 8.16.0 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     Woo Subscriptions by WooCommerce – 6.0.0 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WooCommerce WishLists by Element Stark – 2.3.0 CONTEXT: {"_legacy":true}
+2024-03-07T22:07:47+00:00 NOTICE     WooCommerce by Automattic – 8.6.1 CONTEXT: {"_legacy":true}

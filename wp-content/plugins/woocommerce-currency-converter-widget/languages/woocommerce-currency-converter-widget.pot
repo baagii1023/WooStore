@@ -1,0 +1,240 @@
+# Copyright (C) 2023 KoiLab
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Currency Converter 2.2.1\n"
+"Report-Msgid-Bugs-To: https://woo.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-14T09:18:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: woocommerce-currency-converter-widget\n"
+
+#. Plugin Name of the plugin
+#: src/Privacy.php:25
+#: src/Widget.php:24
+msgid "WooCommerce Currency Converter"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woo.com/products/currency-converter-widget/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides a currency selection widget for displaying product prices and totals in different currencies. Conversions are estimated based on data from the Open Exchange Rates API with no guarantee whatsoever of accuracy."
+msgstr ""
+
+#. Author of the plugin
+msgid "KoiLab"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://koilab.com/"
+msgstr ""
+
+#: includes/class-wc-currency-converter.php:308
+msgid "Original price:"
+msgstr ""
+
+#: src/Admin/Admin.php:39
+msgctxt "aria-label: settings link"
+msgid "View WooCommerce Currency Converter Widget settings"
+msgstr ""
+
+#: src/Admin/Admin.php:40
+msgctxt "plugin action link"
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Admin.php:65
+msgctxt "aria-label: documentation link"
+msgid "View WooCommerce Currency Converter Widget documentation"
+msgstr ""
+
+#: src/Admin/Admin.php:66
+msgctxt "plugin row link"
+msgid "Docs"
+msgstr ""
+
+#: src/Admin/Admin.php:72
+msgctxt "aria-label: support link"
+msgid "Open a support ticket at Woo.com"
+msgstr ""
+
+#: src/Admin/Admin.php:73
+msgctxt "plugin row link"
+msgid "Support"
+msgstr ""
+
+#: src/Admin/Settings/General.php:28
+#: src/Admin/Settings/Integration.php:32
+msgctxt "settings page title"
+msgid "Open Exchange Rates"
+msgstr ""
+
+#: src/Admin/Settings/General.php:39
+msgctxt "settings page description"
+msgid "An integration for utilizing Open Exchange Rates to convert the product prices to different currencies."
+msgstr ""
+
+#: src/Admin/Settings/General.php:51
+msgid "App ID"
+msgstr ""
+
+#. translators: %s: Open Exchange signup link
+#: src/Admin/Settings/General.php:54
+msgid "Enter your Open Exchange Rates App ID or create a new one <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: src/Admin/Settings/General.php:66
+msgid "Rates refresh period"
+msgstr ""
+
+#: src/Admin/Settings/General.php:67
+msgid "Set the rates refresh period in hours."
+msgstr ""
+
+#: src/Admin/Settings/General.php:98
+msgid "Invalid App ID."
+msgstr ""
+
+#. translators: %s the form field title
+#: src/Internal/Admin/Settings/Abstracts/Settings_API.php:365
+msgctxt "settings error"
+msgid "The field \"%s\" is required."
+msgstr ""
+
+#: src/Privacy.php:40
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. Depending on what settings are enabled the specific information shared by your store will vary. "
+msgstr ""
+
+#: src/Privacy.php:43
+msgid "What we collect and store"
+msgstr ""
+
+#: src/Privacy.php:44
+msgid "This extension does not collect any information about the customers."
+msgstr ""
+
+#: src/Privacy.php:45
+msgid "When the customer clicks on any currency symbol of the widget included with this extension, we set the cookie \"woocommerce_current_currency\" to store the customer preferences about the currency to use when displaying prices in your store."
+msgstr ""
+
+#: src/Privacy.php:46
+msgid "What we share with others"
+msgstr ""
+
+#: src/Privacy.php:47
+msgid "When using the exchange provider API to fetch the currency rates, this one may collect data from your store like:"
+msgstr ""
+
+#: src/Privacy.php:49
+msgid "The Internet protocol (IP) address."
+msgstr ""
+
+#: src/Privacy.php:50
+msgid "The location of the device or computer."
+msgstr ""
+
+#: src/Privacy.php:51
+msgid "The computer and device information."
+msgstr ""
+
+#. translators: 1: Exchange provider name, 2: Exchange provider privacy policy URL
+#: src/Privacy.php:58
+msgid "Please, visit the <strong>%1$s</strong> <a target=\"_blank\" href=\"%2$s\">Privacy Policy</a> page for more details."
+msgstr ""
+
+#. translators: 1: Minimum PHP version 2: Current PHP version
+#: src/Requirements.php:59
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Currency Converter</strong> requires PHP %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#. translators: 1: Minimum WordPress version 2: Current WordPress version
+#: src/Requirements.php:66
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Currency Converter</strong> requires WordPress %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#: src/Requirements.php:71
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Currency Converter</strong> requires WooCommerce to be activated to work."
+msgstr ""
+
+#. translators: 1: Minimum WooCommerce version 2: Current WooCommerce version
+#: src/Requirements.php:75
+msgctxt "admin notice"
+msgid "<strong>WooCommerce Currency Converter</strong> requires WooCommerce %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#: src/Widget.php:26
+msgid "Allow users to choose a currency for prices to be displayed in."
+msgstr ""
+
+#: src/Widget.php:30
+msgid "Title:"
+msgstr ""
+
+#: src/Widget.php:31
+msgid "Currency converter"
+msgstr ""
+
+#: src/Widget.php:35
+msgid "Currency codes:"
+msgstr ""
+
+#: src/Widget.php:36
+msgid ""
+"USD\n"
+"EUR"
+msgstr ""
+
+#: src/Widget.php:37
+msgid "Use * to control how the amounts and currency symbols are displayed. Example: SEK* becomes 999kr. USD * becomes 999 $. If you omit * and just provide the currency (USD, EUR), WooCommerce's default currency position will be used."
+msgstr ""
+
+#: src/Widget.php:41
+msgid "Currency Display Mode:"
+msgstr ""
+
+#: src/Widget.php:44
+msgid "Buttons"
+msgstr ""
+
+#: src/Widget.php:45
+msgid "Select Box"
+msgstr ""
+
+#: src/Widget.php:50
+msgid "Widget message:"
+msgstr ""
+
+#: src/Widget.php:51
+msgid "Currency conversions are estimated and should be used for informational purposes only."
+msgstr ""
+
+#: src/Widget.php:56
+msgid "Show currency symbols"
+msgstr ""
+
+#: src/Widget.php:61
+msgid "Show reset link"
+msgstr ""
+
+#: src/Widget.php:66
+msgid "Disable location detection and default to the store's currency."
+msgstr ""
+
+#: templates/content-widget-currency-converter.php:30
+msgid "Choose a Currency"
+msgstr ""
+
+#: templates/content-widget-currency-converter.php:46
+#: templates/content-widget-currency-converter.php:69
+msgid "Reset"
+msgstr ""

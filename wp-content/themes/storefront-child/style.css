@@ -1,0 +1,31 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    https://woocommerce.com/storefront/
+ Author:       Jonathon Leathers
+ Author URI:   https://wp.bcitwebdeveloper.ca/
+ Description:  Customizations to the Storefront theme.
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  storefrontchild
+ Template:     storefront
+*/
+
+/* Example 1 for removing SKU Wrapper */
+/* 
+body.single-product div.product .product_meta .sku_wrapper {
+    display: none;
+} */
+
+.onsale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+ul.products li.product .woocommerce-loop-product__title {
+    font-size: 2rem;
+}
